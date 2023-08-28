@@ -15,6 +15,14 @@ data-web-app="https://dsr-team.lightbeam-ai.com"
 data-domain="https://piyush85.github.io/staticSite"
 id="lb-cookie-consent"
 ></script>
+<script>
+     var theCookies = document.cookie.split(';');
+    var aString = '';
+    for (var i = 1 ; i <= theCookies.length; i++) {
+        aString += i + ' ' + theCookies[i-1] + "\n";
+    }
+    console.log(aString);
+</script>
 <!-- Cookie banner code end-->
 <!-- Cookie banner code end-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36679669-1"></script>
